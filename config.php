@@ -9,10 +9,10 @@
 /**
  * MySQL settings
  */
-define('DB_NAME', '');
-define('DB_USER', '');
+define('DB_NAME', 'wordpress');
+define('DB_USER', 'root');
 define('DB_PASSWORD', '');
-define('DB_HOST', '');
+define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 $table_prefix  = 'wp_';
