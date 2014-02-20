@@ -2,6 +2,12 @@
 
 MrPHP's Own WordPress Skeleton, used for creating new WordPress applications.
 
+## About
+
+Copyright (c) 2014 Mr PHP <info@mrphp.com.au>
+
+Source Code: https://github.com/cornernote/wordpress-skeleton
+
 
 ## Installation with Composer
 
