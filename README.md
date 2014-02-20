@@ -24,3 +24,4 @@ php composer.phar update
 useful links:
 * https://getcomposer.org/
 * https://packagist.org/
+* http://wpackagist.org/
