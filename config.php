@@ -55,5 +55,5 @@ define('WP_DEBUG', false);
 /**
  * WordPress content paths.
  */
-define('WP_CONTENT_DIR', dirname(__DIR__) . '/wp-content');
+define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 define('WP_CONTENT_URL', 'http' . (!empty($_SERVER['HTTPS']) ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']) . '/wp-content');
