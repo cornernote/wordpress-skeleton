@@ -22,7 +22,7 @@
     ],
     "require": {
         "wordpress": "3.8.1",
-        "cornernote/yii-embed-wordpress": "dev-master",
+        "cornernote/yii-embed-wordpress": "~1.0.0",
         "php": ">=5.3.0"
     },
     "extra": {
