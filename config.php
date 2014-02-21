@@ -57,3 +57,8 @@ define('WP_DEBUG', false);
  */
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 define('WP_CONTENT_URL', 'http' . (!empty($_SERVER['HTTPS']) ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . dirname(str_replace('/wp/wp-admin', '', $_SERVER['SCRIPT_NAME'])) . '/wp-content');
+
+/** 
+ * Composer autoloader 
+ */
+require_once(__DIR__ . '/vendor/autoload.php');
